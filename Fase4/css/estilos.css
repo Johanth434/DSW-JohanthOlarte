@@ -1,0 +1,28 @@
+header{
+    background-color:aquamarine ;
+    padding: 20px;
+}
+nav{
+    background-color:thistle;
+    color: white;
+    padding: 20px;
+}
+section{
+    float: left;
+    width: 70%;
+    background-color: beige;
+}
+aside{
+    float: left;
+    width: 30%;
+    background-color:aqua;
+}
+footer{
+    background-color:violet;
+    color: white;
+}
+.contenedor::after{
+    content: "";
+    display: block;
+    clear: both;
+}
